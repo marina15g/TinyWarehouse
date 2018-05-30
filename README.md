@@ -1,5 +1,5 @@
 # Tiny Warehouse
-Description:mini application used for keeping information about supermarket customers and posing queries to extract information.
+__Description__:mini application used for keeping information about supermarket customers and posing queries to extract information.
 
 ### Compilation
 There is a Makefile available for automatic compilation:
