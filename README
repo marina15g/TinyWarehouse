@@ -1,0 +1,40 @@
+Onoma:	Georgopoulou Marina 
+AM:	1115201300030
+Programmatistikh Askhsh 1 - Leitourgika Susthmata - Tmhma artiwn
+
+Totar-ball periexei:
+~Ta Source files main.c , TinyWareHouse.c kai Prompt.c
+~Ta Header files TinyWareHouse.h kai Prompt.h
+~To arxeio Makefile
+~Ena arxeio me dedomena eisodou recs150.txt
+~Ena arxeio OperationsFile ops_recs150_20
+~To arxeio README
+
+1.To programma mporei na diavasei dedomena apo ena arxeio eisodou ths morfhs .txt
+Den diavazei duadika(.bin) arxeia
+
+2.Sxediasmos Listas:
+a)To struct Record einai mia domh pou anaparista thn eggrafh enos pelath.Perilamvanei to id, to onoma, to epi8eto klp.
+b)To struct ListNode einai mia domh pou anaparista enan komvo ths listas mas.
+Perilamvanei ena deikth sthn eggrafh, ka8ws kai duo deiktes, ena gia ton prohgoumeno kai ena gia ton epomeno komvo ths listas,afou h lista prepei na einai dipla sundedemenh.
+c)To struct List einai mia domh h opoia krataei ton prwto kai ton teleutaio komvo ths listas ka8ws kai ton ari8mo twn komvwn pou perilamvanei.
+d)H eisagwgh enos neou komvou sth lista ginetai me vash thn timh tou pediou Amount ths eggrafhs pou perilamvanei o komvos autos.
+Kata thn eisagwgh enos neou komvou h lista diatrexetai apo ton prwto komvo mexris otou na topo8eth8ei o neos komvos sthn katallhlh 8esh wste h lista na einai ta3inomhmenh se f8inousa seira.
+H lista diatrexetai seiriaka epomenws to kostos eisagwghs sth lista 8a einai to polu O(n) (opou  n o ari8mos twn komvwn pou uparxoun hdh sth lista).
+e)An diapistw8ei oti h eggrafh pou prokeitai na eisax8ei sth lista uparxei hdh se auth, tote enhmerwnetai kai topo8eteitai sthn katallhlh 8esh me th xrhsh ths sunarthshs Reclassify.
+Analoga me thn nea timh tou pediou Amount o komvos metakineitai eite pros ta empros eite pros ta pisw kanontas swap me ton antistoixo epomeno komvo(previous h next) mexris otou na topo8eth8ei sth swsth 8esh.
+Etsi to kostos ths anakatanomhs ths listas 8a einai O(n)(Afou sth xeiroterh periptwsh 8a diatre3ei olh th lista).
+f)Oson afora tis erwthseis eurous top kai bottom, to kostos ekteleshs einai O(k), afou xrhsimopoieitai mia epanalhyh for wste na ektupw8oun akrivws k eggrafes seiriaka.
+To idio isxuei kai gia thn leitourgia range.
+
+3.Sxediasmos Hash Table:
+a)To struct BucketElement einai mia domh pou anaparista ena zeugos apo ton ari8mo ID ths eggrafhs sthn opoia antistoixei kai ton deikth ston antistoixo komvo ths listas
+b)To struct BucketNode einai mia domh h opoia perilamvanei to Bucket(To opoio einai enas pinakas apo BucketElements) kai krataei to mege8os twn stoixeiwn pou xwraei to Bucket , thn xwrhtikothta tou kai ena deikth Overflow sto pi8ano overflow-bucket.
+c)To struct HashTable einai mia domh pou krataei enan pinaka apo BucketNodes(ka8ena apo ta opoia mporei na exei h oxi overflow buckets),to guro ston opoio vriskomaste, ton paragonta fortiou,to BucketNode pou prokeitai na diaspastei kai to teleutaio BucketNode,to mege8os twn Buckets kai tis sunolikes eggrafes pou exoun eisax8ei sto HashTable
+
+4.To programma mporei na diavasei entoles apo ena operationsfile kai mesw tou prompt me thn entolh 
+>o(perations) OperationsFile
+
+5.Den xrhsimopoieitai ConfigurationFile gia thn parametrikopoihsh ths efarmoghs
+
+6.H askhsh anaptux8hke kai ulopoih8hke se perivallon linux-ubuntu 13.10. Ektelesthke epishs se Linux PC tou tmhmatos.
