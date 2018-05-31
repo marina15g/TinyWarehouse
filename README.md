@@ -32,5 +32,5 @@ The program begings creating all the necessary structures, inserting records of 
 *  `> e` or `> exit`: exits application. 
 
 ### Input Files Available
-__recs150.txt__: sample input file with 150 records
-__ops_recs150_20__: sample operations file for records in recs150.txt file.
+*__recs150.txt__: sample input file with 150 records
+*__ops_recs150_20__: sample operations file for records in recs150.txt file.
