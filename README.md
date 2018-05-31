@@ -30,3 +30,7 @@ The program begings creating all the necessary structures, inserting records of 
 *  `> r ID1 ID2` or `> range ID1 ID2`: displays all records with amount between that of user with id ID1 and the one of user with id ID2 in ascending order.
 *  `> i ID last_name first_name street number p_code city amount` or `> insert ID last_name first_name street number p_code city amount`: creates one new record with the details given.
 *  `> e` or `> exit`: exits application. 
+
+### Input Files Available
+__recs150.txt__: sample input file with 150 records
+__ops_recs150_20__: sample operations file for records in recs150.txt file.
